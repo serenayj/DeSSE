@@ -1,10 +1,10 @@
-# DeSSE
-DeSSE Corpus: Decomposing Sentences in Students Essays 
-
+# DeSSE: Decomposing Sentences in Students Essays 
 
 DeSSE is a corpus collected from students opinions essays in a social science class. Students watched videos and wrote essays in a blog-like envinronment. DeSSE is introduced under two settings: 1) Connective Prediction, from a paper appeared in TextGraph 2021; 2) Complex Sentence Decomposition, from a paper appeared in ACL 2021.  
 
 DeSSE is annotated through Amazon Mechanical Turk, with an unique interface that allows annotators to split, rewrite the sentences, and drop some words to keep the output grammatical correct. Every sentence could be rewritten into one or multiple simple sentences, with the meanings preserved. The interface is designed by Ting-hao Huang (Kenneth).  
+
+Students are free to express their opinions in their writings, and we do not hold the responsibility for their opinion and speech. 
 
 ![Interface for the annotation task on Amazon Mechanical Turk](interface.png)
 
