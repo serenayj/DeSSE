@@ -8,6 +8,8 @@ Students are free to express their opinions in their writings, and we do not hol
 
 ![Interface for the annotation task on Amazon Mechanical Turk](interface.png)
 
+This repository also has MinWiki corpus, a modified subset from WikiSplit for complex sentence decompositions. See more details below. 
+
 ## Repository Settings
 We release two settings, corresponding to two folders under this repository. The TextGraphs2021 folder has four CSV file, where each of them contains a list of pairs of simple sentences with a connective that could join them back to a complex sentence. The ACL2021 folder has 6 text files, which are for complex sentence decomposition task. 
 
@@ -47,3 +49,28 @@ Under this setting, we use DeSSE to train a sentence rewritter that will rewrite
     pages = "3919--3931",
 }
 ``` 
+
+## Complex Sentence Decomposition -- MinWiki Corpus 
+
+Our ABCD paper also introduces a modified corpus of WikiSplit, one of the largest sentence simplification corpus. To make it a corpus for complex sentence decomposition, we filtered out the sentences where the number of predicates (numbers of tensed Verb Phrases) in the original sentences did not match with number of simple sentences. If you are using MinWiki, cite our ACL paper: 
+
+```
+@inproceedings{gao-etal-2021-abcd,
+    title = "{ABCD}: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences",
+    author = "Gao, Yanjun  and
+      Huang, Ting-Hao  and
+      Passonneau, Rebecca J.",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.303",
+    doi = "10.18653/v1/2021.acl-long.303",
+    pages = "3919--3931",
+}
+``` 
+
+
+
+
